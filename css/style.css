@@ -1,0 +1,30 @@
+/* header component */
+.main-header {
+    border: 1px solid;
+    display: flex;
+    background-image: url(https://picsum.photos/200);
+    border-radius: 10%%;
+}
+.main-logo {
+    height: 50px;
+    weight: 50px;
+    
+}
+/* header component */
+
+/* navbar component */
+.main-navbar {
+    border: 1px solid;
+    display: flex;
+    padding: 8px;
+    align-items: flex-end;
+    
+}
+.main-navbar > a {
+    text-decoration: none;
+    text
+}
+/* navbar component */
+.banner-img {
+    height: 350px;
+}
