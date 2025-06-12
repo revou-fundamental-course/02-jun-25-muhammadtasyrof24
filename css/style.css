@@ -12,7 +12,7 @@
 
         /* Navigation */
         .navbar {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #66eabe 0%, #4040ae 100%);
             padding: 1rem 0;
             position: fixed;
             width: 100%;
@@ -101,15 +101,15 @@
         }
 
         .slide:nth-child(1) {
-            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%234facfe" width="1200" height="600"/><circle fill="%2300f2fe" cx="300" cy="150" r="80" opacity="0.7"/><circle fill="%2300f2fe" cx="900" cy="400" r="100" opacity="0.5"/><polygon fill="%23fff" points="600,100 650,200 550,200" opacity="0.3"/></svg>');
+            background-image: url(/asset/1.jpg);
         }
 
         .slide:nth-child(2) {
-            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23667eea" width="1200" height="600"/><circle fill="%23764ba2" cx="200" cy="300" r="120" opacity="0.6"/><circle fill="%23764ba2" cx="1000" cy="150" r="90" opacity="0.4"/><rect fill="%23fff" x="500" y="200" width="200" height="200" opacity="0.2"/></svg>');
+            background-image: url(/asset/2.jpeg);    
         }
 
         .slide:nth-child(3) {
-            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23fa709a" width="1200" height="600"/><circle fill="%23fee140" cx="400" cy="200" r="100" opacity="0.7"/><circle fill="%23fee140" cx="800" cy="450" r="80" opacity="0.5"/><polygon fill="%23fff" points="600,350 700,450 500,450" opacity="0.4"/></svg>');
+            background-image: url(/asset/3.jpeg);    
         }
 
         .hero-content {
