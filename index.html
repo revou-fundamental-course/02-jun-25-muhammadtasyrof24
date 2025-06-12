@@ -3,56 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Website - Tsaqib</title>
-    <link rel="stylesheet" href="css\style.css">
-
-    <meta name="description" content="Portofolio Muhammad Tsaqib asyrofi">
-    <meta name="keywords" content="Penjelasan tentang portofolio diri">
-    <meta name="author" content="Muhammad Tsaqib Asyrofi">
+    <title>My Portofolio - Muhammad Tsaqib Asyrofi</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- header content -->
-    <header class="main-header">
-        <!-- logo website -->
-         <div class="main-logo"></div>
-
-        <h1>Muhammad Tsaqib Asyrofi</h1>
-
-        <!-- navbar -->
-        <nav class="main-navbar">
-            <a href="home">Home</a>
-            <a href="#our-profile">Our Profile</a>
-            <a href="#massage-us">Massage us</a>
-        </nav>
-    </header>
-<hr>
-    <!-- main content -->
-    <main>
-        <!-- home section -->
-         <section id="home">
-            <h1>Hi there, Welcome to my portofolio website!</h1>
-            <p>My name is Muhammad Tsaqib Asyrofi, I'm working in coal fired power plant company</p>
-            <div class="banner-img">
-                <img src="https://picsum.photos/200" alt="banner">
+    <!-- Navigation bar-->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Muhammad Tsaqib Asyrofi</a>
+            <ul class="nav-menu">
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('profile')">Our Profile</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-         </section>
-<hr>
-         <!-- our profile section -->
-         <section id="our-profile">
-            <h1>I'm future frontend engineer</h1>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus voluptates doloremque quod voluptate non vel ipsum ut sunt quidem, saepe perferendis a accusamus aut sequi suscipit rem! Exercitationem, optio totam.
+        </div>
+    </nav>
+<main>
+    <!-- Home Page -->
+    <div id="home-page">
+        <!-- Hero Section with Auto Slider -->
+        <section class="hero">
+            <div class="hero-slider">
+                <div class="slide active">
+                    <div class="hero-content">
+                        <div class="welcome-message" id="welcome-message">Welcome to my Portofolio</div>
+                        <h1>Environmental of Workplace</h1>
+                        <p>Working together in power plant company to provide clean energy for people</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="hero-content">
+                        <h1>Safety Procedure in Workplace</h1>
+                        <p>Mandatory use PPE and work safely to achieve zero accident</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="hero-content">
+                        <h1>One Step Ahead in Technology</h1>
+                        <p>Applying latest Technology to minimize environmental issue</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-         </section>
-<hr>
-         <!-- massage us section -->
-         <section id="massage-us">
-            <h1>Message us</h1>
-            <p>Please message us if you have interest</p>
+        <!-- About me Section -->
+        <section class="about section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I was Graduated from Electrical Engineering of Jenderal Soedirman University in May 2018 by took Power System as my major. I am kind a hard worker, eager to learn new knowledge and passionate in growth.</p>
+                        <br>
+                        <h3>Work Experience</h3>
+                        <h4>PT Bhumi Jepara Service</h4>
+                        <p>Then, in March 2020 I started work in Bhumi Jepara Service as a Coal Handling Patrol, my jobdesk is ensure equipment is safety to run before running and do some checklist form. Beside that I also assist Control Room Operator to operate Coal Run-off Wastewater Treatment System.</p>
+                        <br>
+                        <h4>PT NIC INDONESIA</h4>
+                        <p>By the end of 2018 I'm working in PT. NIC INDONESIA as Electrical Technician for 6 months, which my jobdesk were planned and organized my subordinate, installed electrical panel, and did preventive, corrective and emergency maintenance.</p>
+                        
+                    </div>
+                    <!-- <div class="about-image">
+                        <svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="300" fill="#f0f0f0" rx="10"/>
+                            <rect x="50" y="50" width="300" height="200" fill="#667eea" rx="5"/>
+                            <rect x="70" y="70" width="80" height="60" fill="#fff" rx="3"/>
+                            <rect x="160" y="70" width="80" height="60" fill="#fff" rx="3"/>
+                            <rect x="250" y="70" width="80" height="60" fill="#fff" rx="3"/>
+                            <rect x="70" y="140" width="260" height="80" fill="#fee140" rx="3"/>
+                            <text x="200" y="185" text-anchor="middle" fill="#333" font-family="Arial" font-size="16" font-weight="bold">Xenosaga School</text>
+                            <circle cx="100" cy="100" r="15" fill="#764ba2"/>
+                            <circle cx="300" cy="100" r="15" fill="#764ba2"/>
+                        </svg>
+                    </div> -->
+                </div>
+            </div>
+        </section>
 
-         </section>
-    </main>
+        <!-- Vision & Mission Section -->
+        <section class="vision-mission section">
+            <div class="container">
+                <h2 class="section-title">Vision & Mission</h2>
+                <div class="vm-grid">
+                    <div class="vision"><h3>Our Vision</h3></div>
+                    <div class="vm-card">
+                        <p>To be a leading power company and contribute to economic growth and social development in Indonesia using environment-friendly technology and best utility practice</p>
+                    </div>
+                    <div class="mission"><h3>Our Mission</h3></div>
+                    <div class="vm-card">
+                        <p>Provide power Solutions and deliver high efficiency power plants under a commited timeline</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
-    <!-- footer content -->
-    <footer></footer>
+    <!-- Profile Page -->
+    <section id="profile-page" class="profile section">
+        <div class="container">
+            <h2 class="section-title">Our Complete Profile</h2>
+            <div class="profile-grid">
+                <div class="profile-card">
+                    <h3>Company History</h3>
+                    <p>The Company is established in 2019 by 3 most consortium are Sumitomo Corp., United Tractors, and Kansai Power LTD</p>
+                </div>
+                <!-- <div class="profile-card">
+                    <h3>Academic Programs</h3>
+                    <p>We offer comprehensive programs including STEM education, liberal arts, languages, arts, and sports. Our curriculum is designed to meet international standards while respecting local values and culture.</p> -->
+                </div>
+                <div class="profile-card">
+                    <h3>Facilities</h3>
+                    <p>Our company capacity is 1070 MW and the boiler type is USC (Ultra-supercritical)</p>
+                </div>
+                <div class="profile-card">
+                    <h3>Achievements</h3>
+                    <p>Achieve 3.000.000 safety work hours</p>
+                </div>
+                <!-- <div class="profile-card">
+                    <h3>Faculty</h3>
+                    <p>Our team of 85 dedicated educators includes master's and PhD holders, with an average of 12 years teaching experience. Many are certified in specialized teaching methodologies and ongoing professional development.</p>
+                </div> -->
+                <div class="profile-card">
+                    <h3>Community</h3>
+                    <p>Always Empowering local community for sustainable growth</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Message Us</h2>
+            <div class="form-container">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                        <div class="error" id="nameError">Please enter your full name</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                        <div class="error" id="emailError">Please enter a valid email address</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                        <div class="error" id="phoneError">Please enter a valid phone number</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <div class="error" id="messageError">Please enter your message</div>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+
+                <div id="formResults" class="form-results">
+                    <h4>Form Submission Details:</h4>
+                    <div id="submittedData"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Muhammad Tsaqib Asyrofi. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
