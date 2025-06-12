@@ -14,7 +14,8 @@ setInterval(nextSlide, 4000);
 function askForName() {
     const name = prompt("Welcome! Please enter your name:");
     if (name && name.trim() !== "") {
-                document.getElementById('welcome-message').textContent = `Hi ${name}, Welcome to Our School!`;
+                document.getElementById('welcome-message').textContent = `Hi ${name}, Welcome to my Portofolio!`;
+                setInterval (1000)
     }
 }
         
