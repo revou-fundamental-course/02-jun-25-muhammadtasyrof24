@@ -198,7 +198,7 @@
         }
 
         .vm-card {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #66eabe 0%, #4040ae 100%);
             color: white;
             padding: 2.5rem;
             border-radius: 15px;
@@ -206,13 +206,14 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             transform: translateY(0);
             transition: transform 0.3s ease;
+            
         }
 
         .vm-card:hover {
             transform: translateY(-10px);
         }
 
-        .vm-card h3 {
+        .vision, .mission h3 {
             font-size: 2rem;
             margin-bottom: 1.5rem;
         }
@@ -254,7 +255,7 @@
 
         /* Contact Form */
         .contact {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #66eabe 0%, #4040ae 100%);
             color: white;
         }
 
@@ -346,7 +347,7 @@
                 left: -100%;
                 top: 70px;
                 flex-direction: column;
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                background: linear-gradient(135deg, #66eabe 0%, #4040ae 100%);
                 width: 100%;
                 text-align: center;
                 transition: 0.3s;
